@@ -1,0 +1,39 @@
+	*{
+		margin:0;
+		padding:0;
+		color:seashell;
+		font-family: helvetica;
+
+	}
+
+	header {
+		background-color: black;
+		border-bottom: 1px solid seashell;
+		position: fixed;
+		width: 100%;
+	}
+
+	.headcontent {
+		display:flex;
+		align-items: center;
+		height:69px;
+
+	}
+
+
+	.headimg {
+		flex:0.90;
+	}
+	.headimg img {
+		height:50px;
+		width:auto;
+		margin-left: 10px;
+
+	}
+
+	.headlinks span{
+		padding-left: 15px;
+		font-size: 22px;
+	}
+
+	
